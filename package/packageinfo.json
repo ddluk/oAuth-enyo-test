@@ -8,5 +8,5 @@
 	"icon": "icon64.png",
 	"miniicon": "icon32.png",
 	"app": "com.ddluk.oauthtest",
-	"services": ["com.ddluk.oauthtest.service"]
+	"services": ["com.ddluk.oauthtest.oauth"]
 }

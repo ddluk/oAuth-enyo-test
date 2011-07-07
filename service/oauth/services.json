@@ -1,0 +1,11 @@
+{
+	"id": "com.ddluk.oauthtest.oauth",
+	"description": "oAuth Service",
+	"services": [
+		{
+			"name": "com.ddluk.oauthtest.oauth",
+			"description": "oAuth Service",
+			"commands": []
+		}
+	]
+}
