@@ -1,0 +1,12 @@
+{
+	"id": "com.ddluk.oauthtest",
+	"version": "1.0.0",
+	"uiRevision": "2"
+	"vendor": "ddluk",
+	"type": "web",
+	"main": "index.html",
+	"title": "oauthtest",
+	"icon": "icon.png"
+	"app": "com.ddluk.oauthtest",
+	"services": ["com.ddluk.oauthtest.service"]
+}
