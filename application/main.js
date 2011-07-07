@@ -2,11 +2,13 @@ enyo.kind({
    name: "main",
    kind: enyo.Control,
    components: [
-   {content: "Hello world"},
-   { "library":	{ "name": "foundations", "version": "1.0" } },
-   { "source":	"modules.js" },
-   
+      {content: "Hello world"},
+      {
+         name: "oauth",
+         kind: "enyo.PalmService",
+         service: "palm://com.ddluk.oauthtest.oauth/",
+         subscribe: true,
+         timeout: 10000
+      }
    ]
-   })
-   
-   
+});
