@@ -7,6 +7,4 @@
 	"main": "index.html",
 	"title": "oauthtest",
 	"icon": "icon.png"
-	"app": "com.ddluk.oauthtest",
-	"services": ["com.ddluk.oauthtest.service"]
 }
